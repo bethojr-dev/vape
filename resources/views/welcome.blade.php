@@ -137,7 +137,7 @@
                                     <p>Em estoque: {{ $product->stock }}</p>
                                 @endif
 
-                                <a class="image"><img width="30" height="30" src="{{ asset('storage/' . $product->image) }}" /></a>
+                                <a class="image"><img src="{{ asset('storage/' . $product->image) }}" /></a>
                                 <h3>{{ $product->name }}</h3>
                                 <p>{{ $product->description }}</p>
                                 <hr>
@@ -190,7 +190,7 @@
                 </section>
 
                 <!-- Menu -->
-                <nav id="menu">
+                <!-- <nav id="menu">
                     <header class="major">
                         <h2>Menu</h2>
                     </header>
@@ -222,7 +222,7 @@
                         <li><a href="#">Sapien Mauris</a></li>
                         <li><a href="#">Amet Lacinia</a></li>
                     </ul>
-                </nav>
+                </nav> -->
 
                 <!-- Section -->
                 <section>
@@ -244,9 +244,10 @@
                     <header class="major">
                         <h2>Entre em contato</h2>
                     </header>
+                    <!--
                     <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem
                         ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
-                        tempus aliquam.</p>
+                        tempus aliquam.</p> -->
                     <ul class="contact">
                         <li class="icon solid fa-phone"><a href="">(85) 9 9425-3764</a></li>
                         <li class="icon solid fa-instagram"><a href="">@myvape_store</a></li>
